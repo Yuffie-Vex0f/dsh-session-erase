@@ -1,0 +1,35 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+
+# test / coverage output
+coverage/
+.nyc_output/
+
+# local temp files
+.tmp/
+tmp/
+*.tgz
+
+# environment / secrets
+.env
+.env.*
+!.env.example
+
+# editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# build output (this plugin ships prebuilt lib/ and needs no build)
+dist/
+build/
+out/

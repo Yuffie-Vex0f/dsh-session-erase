@@ -1,0 +1,12 @@
+# The session-erase bundle patch: one host row that is also the browser
+# roster entry (its package.json declares dsh.client, so the modules node
+# half serves lib/client.js at /plugins/@dsh-local/session-erase/client.js).
+#
+# `sessionsRoot` names the JSONL persistence root every Session log lives
+# under; it is used only to locate and verify directories, and every path is
+# containment-checked before use.
+- insert:
+    - id: session-erase
+      name: '@dsh-local/session-erase'
+      config:
+        sessionsRoot: !!js dshHomePath('sessions')
