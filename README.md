@@ -11,6 +11,21 @@
 - 删除成功后自动刷新会话列表。
 - 跟随 Harness 当前主题（亮色 / 暗色）。
 
+## 截图
+
+### 快捷菜单
+
+![快捷菜单](assets/Context menu.png)
+
+### 确认对话框
+
+![确认对话框](assets/Confirmation dialog.png)
+
+### 删除结果
+
+![删除完成状态](assets/Deletion result.png)
+
+
 ## 组成
 
 | 文件 | 作用 |
