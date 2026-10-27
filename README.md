@@ -15,15 +15,15 @@
 
 ### 快捷菜单
 
-![快捷菜单](assets/Context menu.png)
+![快捷菜单](assets/Context%20menu.png)
 
 ### 确认对话框
 
-![确认对话框](assets/Confirmation dialog.png)
+![确认对话框](assets/Confirmation%20dialog.png)
 
 ### 删除结果
 
-![删除完成状态](assets/Deletion result.png)
+![删除完成状态](assets/Deletion%20result.png)
 
 
 ## 组成
